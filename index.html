@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#fff8ee" />
+    <meta name="description" content="二年级语文暑假预习小站：登鹳雀楼" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>小小预习家 · 登鹳雀楼</title>
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div class="brand-mark">✦</div>
+        <div><p class="eyebrow">暑假语文预习</p><h1>小小预习家</h1></div>
+        <button id="resetProgress" class="icon-button" aria-label="重置进度">↺</button>
+      </header>
+
+      <section class="hero-card">
+        <div class="hero-copy"><span class="unit-tag">第四单元 · 第10课</span><h2>古诗二首</h2><p>今天和小诗人王之涣一起，登上高高的鹳雀楼。</p></div>
+        <div class="sun">☀</div>
+      </section>
+
+      <section class="progress-panel">
+        <div class="section-heading"><div><p class="eyebrow">今日学习</p><h2>一步一步来</h2></div><strong id="progressText">0 / 12</strong></div>
+        <div class="progress-track"><div id="progressBar"></div></div>
+        <p class="muted">完成一张卡片就点一下“我会了”，慢慢来就很棒。</p>
+      </section>
+
+      <section class="lesson-list">
+        <button class="lesson-card active" data-section="words"><span class="lesson-icon peach">字</span><span><strong>生字词</strong><small>认识 8 个重点词语</small></span><span class="arrow">›</span></button>
+        <button class="lesson-card" data-section="poem"><span class="lesson-icon blue">诗</span><span><strong>古诗朗读</strong><small>《登鹳雀楼》 · 王之涣</small></span><span class="arrow">›</span></button>
+        <button class="lesson-card" data-section="meaning"><span class="lesson-icon green">懂</span><span><strong>诗意小讲堂</strong><small>用孩子听得懂的话理解诗句</small></span><span class="arrow">›</span></button>
+        <button class="lesson-card" data-section="quiz"><span class="lesson-icon purple">趣</span><span><strong>小小挑战</strong><small>答对 3 题，给自己一颗星</small></span><span class="arrow">›</span></button>
+      </section>
+
+      <section id="studyView" class="study-view" aria-live="polite"></section>
+      <footer>每天 10 分钟，把课本读成自己的故事 🌿</footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
