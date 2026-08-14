@@ -1,1 +1,10 @@
-{"name":"小小预习家","short_name":"语文预习","start_url":"./","display":"standalone","background_color":"#fff8ee","theme_color":"#fff8ee","description":"二年级语文暑假预习小站"}
+{
+  "name": "小小预习家",
+  "short_name": "语文预习",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fff8ee",
+  "theme_color": "#fff8ee",
+  "lang": "zh-CN",
+  "description": "2025秋统编版二年级上册语文预习小站"
+}
