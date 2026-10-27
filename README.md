@@ -1,5 +1,10 @@
 # 小小预习家 · 二年级语文
 
+<!-- AI-HANDOFF-ENTRY -->
+**AI接手与运行：**[从这里开始](AI_START_HERE.md) · [安装/启动/数据说明](docs/AI_HANDOFF.md) · [实际验证结果](docs/VERIFICATION.md)。
+<!-- /AI-HANDOFF-ENTRY -->
+
+
 2025 秋统编版二年级上册预习小站。手机上打开就能用：先选单元，再选一课，认一认、读一读、练一练。没有账号，进度只存在这台手机的浏览器里。
 
 在线地址：<https://shanelau068-a11y.github.io/xiaoxiao-yuxi/>
